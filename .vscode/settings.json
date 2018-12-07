@@ -1,0 +1,11 @@
+{
+    "workbench.sideBar.location": "left",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "files.autoSave": "onWindowChange",
+}

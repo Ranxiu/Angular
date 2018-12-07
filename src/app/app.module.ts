@@ -4,13 +4,17 @@ import { FormsModule } from '@angular/forms'; // 引入双向数据绑定模块
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';  //引入组件
-import { HeroesComponent } from './heroes/heroes.component'; //引入app模块下的heroes组件
+import { HeroesComponent } from './heroes/heroes.component';
+import { ListComponent } from './list/list.component';
+import { ListDetailComponent } from './list-detail/list-detail.component'; //引入app模块下的heroes组件
 
 @NgModule({
   declarations: [
     /*声明模块中有什么东西  只能声明 组件 指令 管道 */
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    ListComponent,
+    ListDetailComponent
   ],
   imports: [
     /*声明该模块所依赖的模块 */
