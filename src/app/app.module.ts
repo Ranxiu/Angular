@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';  //引入组件
 import { HeroesComponent } from './heroes/heroes.component';
 import { ListComponent } from './list/list.component';
 import { ListDetailComponent } from './list-detail/list-detail.component';
-import { MessagesComponent } from './messages/messages.component'; //引入app模块下的heroes组件
+import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component'; //引入app模块下的heroes组件
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MessagesComponent } from './messages/messages.component'; //引入app�
     HeroesComponent,
     ListComponent,
     ListDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     /*声明该模块所依赖的模块 */

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';  //引入angular核心类文件
 import {Hero} from '../hero';
-import {HEROES} from '../mock-heroes'; //引入模拟数据 HEROES常量
+import {HEROES} from '../service/mock-heroes'; //引入模拟数据 HEROES常量
 @Component({
   selector: 'app-list',  //组件的选择器（CSS 元素选择器）
   templateUrl: './list.component.html',  // 组件模板文件的位置
