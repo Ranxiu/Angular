@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';  //引入组件
 import { HeroesComponent } from './heroes/heroes.component';
 import { ListComponent } from './list/list.component';
-import { ListDetailComponent } from './list-detail/list-detail.component'; //引入app模块下的heroes组件
+import { ListDetailComponent } from './list-detail/list-detail.component';
+import { MessagesComponent } from './messages/messages.component'; //引入app模块下的heroes组件
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ListDetailComponent } from './list-detail/list-detail.component'; //引
     AppComponent,
     HeroesComponent,
     ListComponent,
-    ListDetailComponent
+    ListDetailComponent,
+    MessagesComponent
   ],
   imports: [
     /*声明该模块所依赖的模块 */
