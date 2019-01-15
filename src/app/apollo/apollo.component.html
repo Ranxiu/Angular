@@ -1,0 +1,11 @@
+<!-- <div *ngIf="loading">
+  Loading...
+</div> -->
+<div *ngIf="error">
+  Error :(
+</div>
+<div *ngIf="users">
+  <div *ngFor="let rate of users">
+    <p>{{rate.name}}: {{rate.id}}</p>
+  </div>
+</div>
